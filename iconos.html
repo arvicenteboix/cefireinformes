@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Dividida en 3 Partes</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .custom-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            width: 100%;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-ia { background-color: #007bff; }       /* Color azul */
+        .btn-colegio { background-color: #28a745; }  /* Color verde */
+        .btn-ordenador { background-color: #dc3545; } /* Color rojo */
+        .custom-btn:hover {
+            opacity: 0.8;
+        }
+        .custom-col {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 15px;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 50px; /* Añade un espacio de 30px entre las columnas */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Sección 1: Icono de IA -->
+            <div class="col-md-3 custom-col text-center col-sm-3">
+                <a href="enlace1" class="custom-btn btn-ia">
+                    <i class="fas fa-robot" style="font-size: 50px;"></i>
+                </a>
+                <p>Inteligencia Artificial</p>
+            </div>
+            <!-- Sección 2: Icono de Colegio -->
+            <div class="col-md-3 custom-col text-center col-sm-3">
+                <a href="enlace2" class="custom-btn btn-colegio">
+                    <i class="fas fa-school" style="font-size: 50px;"></i>
+                </a>
+                <p>Colegio</p>
+            </div>
+            <!-- Sección 3: Icono de Ordenador -->
+            <div class="col-md-3 custom-col text-center col-sm-3">
+                <a href="enlace3" class="custom-btn btn-ordenador">
+                    <i class="fas fa-laptop" style="font-size: 50px;"></i>
+                </a>
+                <p>Ordenador</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

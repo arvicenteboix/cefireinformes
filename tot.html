@@ -1,0 +1,36 @@
+<script type='text/javascript'>
+    window.onload = function() {
+      // Se crea un nuevo elemento <div> para el banner
+      var banner_div = document.createElement("div");
+  
+      // Se obtiene el primer elemento con la clase "perfil_elemento"
+      var baner_titulo = document.getElementsByClassName("perfil_elemento")[0];
+  
+      // Se establece el contenido HTML del nuevo <div> con una imagen y saltos de línea
+      banner_div.innerHTML = '<img id="banner_img" alt="Banner" border="0" width="640"><br><br>';
+  
+      // Se aplica estilo CSS al <div> para centrar el contenido
+      banner_div.style.cssText = 'text-align: center;';
+  
+      // Se inserta el nuevo <div> antes del primer hijo del elemento "perfil_elemento"
+      baner_titulo.insertBefore(banner_div, baner_titulo.firstChild);
+  
+      // Se obtiene la imagen del banner por su ID
+      var banner_img = document.getElementById("banner_img");
+  
+      // Se establece la fuente de la imagen del banner
+      banner_img.src = "https://ceice.gva.es/documents/161863064/385994422/Valenci%C3%A0.png";
+  
+      // Se obtiene el primer elemento con la clase "enumeracion"
+      var objetivos = document.getElementsByClassName("enumeracion")[0];
+  
+      // Se establece el contenido HTML del primer elemento "enumeracion"
+      objetivos.innerHTML = "<div style='font-size: 12px; margin: 10px;'>Donar a conèixer els canvis que supossa esta nova llei en l'àmbit educatiu.</div>";
+  
+      // Se obtiene el segundo elemento con la clase "enumeracion"
+      var contenidos = document.getElementsByClassName("enumeracion")[1];
+  
+      // Se establece el contenido HTML del segundo elemento "enumeracion"
+      contenidos.innerHTML = '<div style="font-size: 12px; margin: 10px;">Aquesta formació està estructurada en 5 blocs. Cada bloc està compost per una connexió síncrona i un formulari de respostes autocorregible<h2>Bloc 1: Els nous mòduls professionals</h2><ol><li>Mòdul de Digitalització</li><li>Mòdul de Sostenibilitat</li><li>Mòduls Optatius</li><li>Mòdul Projecte</li><li>Carnets professionals i Borsa horària</li></ol><h2>Bloc 2: Formació en empresa</h2><ol><li>Estructura de la formació en empresa</li><li>Modalitat</li><li>Relació amb l\'empresa</li><li>Criteris d\'adjudicació de l\'empresa</li><li>El tutor</li><li>Seguiment</li><li>Avaluació</li></ol><h2>Bloc 3: Programació i Avaluació</h2><ol><li>Programació per Resultats d\'Aprenentatge</li><li>Avaluació i qualificació</li></ol><h2>Bloc 4: Conceptes bàsics</h2><ol><li>L\'Incual</li><li>El Catàleg Nacional de Qualificacions / El Catàleg d\'Estandards de Competència</li><li>Unitat de Competència / Estàndard de competència</li><li>Certificats de Professionalitat / Certificats Professionals</li><li>Acreditació de competències</li></ol><h2>Bloc 5: Organització, modalitat i planificació</h2><ol><li>Graus</li><li>Mòduls professionals</li><li>Oferta formativa</li></ol></div>';
+    };
+  </script>

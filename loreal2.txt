@@ -1,0 +1,32 @@
+::Sostenibilidad en Salón de Peluquería::
+¿Cuáles son los tres parámetros en los que basar la sostenibilidad de un salón de peluquería? {
+=REDUCCIÓN CONSUMO DE AGUA
+=EFICIENCIA ENERGÉTICA
+=GESTIÓN DE RESIDUOS
+}
+
+::Negocio Sostenible::
+¿La sostenibilidad da negocio? {
+=Sí
+~No
+}
+
+::Sostenibilidad::
+¿Es sostenible ser sostenible? {
+=Sí
+~No
+}
+
+::Residuo Principal::
+¿Cuál es el residuo que más genera un salón? {
+~TINTE
+~ENVASES CHAMPÚ
+=CABELLO
+}
+
+::Obstáculo para la Sostenibilidad::
+¿Cuál creéis que es el mayor obstáculo para la sostenibilidad en los salones de hoy en día? {
+=CREENCIA DE QUE TIENE UN ALTO COSTE ECONÓMICO
+~FALTA DE INTERÉS
+~NO ES PARTE DEL NEGOCIO
+}

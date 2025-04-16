@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Banner</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script type='text/javascript'>
+        function generarCodigo() {
+            var src = document.getElementById("srcInput").value;
+            var codigo = `<script type='text/javascript'>window.onload = function () { var objetivos = document.getElementsByClassName("perfil_elemento")[0]; var banner_div = document.createElement("div"); banner_div.innerHTML='<img id="banner_img" alt="Banner" border="0" width="640"><br><br>'; banner_div.style.cssText = 'text-align: center;'; objetivos.insertBefore(banner_div, objetivos.firstChild); var banner_img = document.getElementById("banner_img"); banner_img.src="${src}"; };<\/script>`;
+            document.getElementById("codigoTextarea").value = codigo;
+            document.getElementById("banner_img").src = src;
+        }
+
+        function copiarCodigo() {
+            var codigoTextarea = document.getElementById("codigoTextarea");
+            codigoTextarea.select();
+            document.execCommand("copy");
+        }
+    </script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Generador de Banner</h1>
+        <div class="form-group">
+            <label for="srcInput">URL de la imagen:</label>
+            <input type="text" class="form-control" id="srcInput" placeholder="Introduce la URL de la imagen">
+        </div>
+        <button class="btn btn-primary" onclick="generarCodigo()">Generar Código</button>
+        <div class="form-group mt-3">
+            <label for="codigoTextarea">Código generado:</label>
+            <textarea class="form-control" id="codigoTextarea" rows="5" readonly></textarea>
+        </div>
+        <button class="btn btn-secondary" onclick="copiarCodigo()">Copiar Código</button>
+        <div class="mt-3 text-center">
+            <img id="banner_img" alt="Banner" border="0" width="640">
+        </div>
+    </div>
+</body>
+</html>

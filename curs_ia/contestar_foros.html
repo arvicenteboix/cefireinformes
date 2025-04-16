@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtenir DOM amb Fetch</title>
+    <script>
+        //var sesskey;
+        var response;
+        var cookie;
+        var rows;
+        var doc;
+        var discussionId;
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            //sesskey = params.get('sesskey');
+            cookie = params.get('cookie');
+        }
+
+        async function fetchDOM2() {
+            getQueryParams();
+            try {
+                response = await fetch('https://aules.edu.gva.es/docent/mod/forum/view.php?id=3414336', {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+                        'Accept-Language': 'es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7',
+                        'Connection': 'keep-alive',
+                        'Cookie': cookie,
+                        'Referer': 'https://aules.edu.gva.es/docent/course/view.php?id=78416',
+                        'Sec-Fetch-Dest': 'document',
+                        'Sec-Fetch-Mode': 'navigate',
+                        'Sec-Fetch-Site': 'same-origin',
+                        'Sec-Fetch-User': '?1',
+                        'Upgrade-Insecure-Requests': '1',
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+                        'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+                        'sec-ch-ua-mobile': '?0',
+                        'sec-ch-ua-platform': '"Windows"'
+                    },
+                    credentials: 'include' // Inclou les cookies a la petició
+                });
+
+                if (response.ok) {
+                    const text = await response.text();
+                    const parser = new DOMParser();
+                    doc = parser.parseFromString(text, 'text/html');
+                    processDOM(doc);
+                } else {
+                    console.error('Error en la petició:', response.statusText);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        function processDOM(doc) {
+            rows = doc.querySelectorAll('tbody tr');
+            rows.forEach(row => {
+                discussionId = row.getAttribute('data-discussionid');
+                console.log(discussionId);
+            });
+        }
+
+        window.onload = fetchDOM;
+    </script>
+</head>
+<body>
+    <h1>Obtenir DOM amb Fetch</h1>
+    <p>Consulta la consola per veure els identificadors de les discussions.</p>
+</body>
+</html>

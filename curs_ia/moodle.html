@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilitzant Gemini API</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Fes una qüestió a la IA</h1>
+        <div class="form-group">
+            <label for="questionInput">Qüestió:</label>
+            <input type="text" class="form-control" id="questionInput" placeholder="Enter your question">
+        </div>
+        <button id="submitButton" class="btn btn-primary">Envia</button>
+        <div class="form-group mt-4">
+            <label for="responseArea">Resposta:</label>
+            <textarea class="form-control" id="responseArea" rows="10" readonly></textarea>
+        </div>
+        <!-- <div>
+            <p><strong>Sesskey:</strong> <span id="sesskey"></span></p>
+            <p><strong>Cookie:</strong> <span id="cookie"></span></p>
+        </div> -->
+    </div>
+
+    <script>
+        var sesskey;
+        var cookie;
+        var question;
+        var answer;
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            sesskey = params.get('sesskey');
+            cookie = params.get('cookie');
+            
+            // document.getElementById('sesskey').textContent = sesskey;
+            // document.getElementById('cookie').textContent = cookie;
+        }
+
+        function makeRequest(resposta) {
+            const xhr = new XMLHttpRequest();
+            const url = 'https://aules.edu.gva.es/docent/mod/forum/post.php';
+
+            const params = 'discussionsubscribe=0&course=78416&forum=226583&discussion=0&parent=0&groupid=&edit=0&reply=0&sesskey='+sesskey+'&_qf__mod_forum_post_form=1&subject='+ question +'&message%5Btext%5D=%3Cp+dir%3D%22ltr%22+style%3D%22text-align%3A+left%3B%22%3E'+resposta+'%3Cbr%3E%3C%2Fp%3E&message%5Bformat%5D=1&message%5Bitemid%5D=507523168&submitbutton=Envia+al+f%C3%B2rum';
+
+            xhr.open('POST', url, true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.setRequestHeader('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0');
+            xhr.setRequestHeader('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8');
+            xhr.setRequestHeader('Accept-Language', 'es-ES,ca;q=0.8,es;q=0.6,en-US;q=0.4,en;q=0.2');
+            xhr.setRequestHeader('Accept-Encoding', 'gzip, deflate, br, zstd');
+            xhr.setRequestHeader('Origin', 'https://aules.edu.gva.es');
+            xhr.setRequestHeader('Connection', 'keep-alive');
+            xhr.setRequestHeader('Referer', 'https://aules.edu.gva.es/docent/mod/forum/view.php?id=3413682');
+            xhr.setRequestHeader('Cookie', cookie);
+            xhr.setRequestHeader('Upgrade-Insecure-Requests', '1');
+            xhr.setRequestHeader('Sec-Fetch-Dest', 'document');
+            xhr.setRequestHeader('Sec-Fetch-Mode', 'navigate');
+            xhr.setRequestHeader('Sec-Fetch-Site', 'same-origin');
+            xhr.setRequestHeader('Sec-Fetch-User', '?1');
+            xhr.setRequestHeader('Priority', 'u=0, i');
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        console.log('Success:', xhr.responseText);
+                    } else {
+                        console.error('Error:', xhr.statusText);
+                    }
+                }
+            };
+
+            xhr.send(params);
+        }
+
+        $(document).ready(function() {
+            getQueryParams();
+
+            $('#submitButton').click(function() {
+                question = $('#questionInput').val();
+                const apiKey = 'AIzaSyCjKntGH9ll1D92-_qPPrizsS1yg1S1Cgc';
+                const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
+                const data = {
+                    contents: [{
+                        parts: [{ text: "La respuesta a la siguiente pregunta no debe contener formato markdown, debe ser texto plano, si la pregunta no está relacionada con inteligencia artificial, debes de dar la respuesta de, 'Pregúntame solo cosas sobre inteligencia artificial', debes limitar la respuesta a un máximo de 100 palabras. La pregunta es: "+ question }]
+                    }]
+                };
+
+                $('#responseArea').val(''); // Clear previous response
+                $('#submitButton').prop('disabled', true).text('Loading...'); // Disable button and show loading text
+
+                $.ajax({
+                    url: url,
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function(response) {
+                        answer = response.candidates[0].content.parts[0].text;
+                        $('#responseArea').val(response.candidates[0].content.parts[0].text);
+                    },
+                    error: function(error) {
+                        console.error('Error:', error);
+                        $('#responseArea').val('An error occurred. Please try again.');
+                    },
+                    complete: function() {
+                        $('#submitButton').prop('disabled', false).text('Submit'); // Re-enable button and reset text
+                        makeRequest(answer);
+                    }
+                });
+            });
+
+        
+    });
+
+    </script>
+</body>
+</html>

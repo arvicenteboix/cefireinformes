@@ -90,9 +90,9 @@ pandoc-latex-environment:
 
 # Introducción
 
-En el presente informe se detallan el estado de las formaciones a fecha de abril de 2025, la documentación de la que se dispone, y, por ende aquellas que necesitarán actuaciones fuera de los protocolos establecidos. Se detallan las actuaciones realizadas y tanto en la formaciones que estan en inscripción como en confirmación.
+En el presente informe se detallan el estado de las formaciones a fecha de abril de 2025, la documentación de la que se dispone, y, por ende aquellas que necesitarán actuaciones fuera de los protocolos establecidos. Se detallan las actuaciones realizadas, tanto en la formaciones que están en inscripción como en confirmación.
 
-# Documentación e la que se dispone
+# Documentación de la que se dispone
 
 La documentación de la que se dipone ha sido facilitada a través de dos correos electrónicos recibidos:
 
@@ -134,12 +134,12 @@ Los documentos recibidos son:
 - pfirma_1741347347442_JKTHW6Z4-WEGINRT8-T8PSLAFA.zip
 
 :::info
-Las fichas económicas recibidas son aquellas de las que ya se disponñian por parte de los asesores a excepción de 10_25FP35CF002_FitxaEconom_signed y 10_25FP35CF004_FitxaEconom_signed que se encuentran firmadas por el director. Algunas fichas económicas se encuentran repetidas baja el sufijo (1).
+Las fichas económicas recibidas son aquellas de las que ya se disponían por parte de los asesores a excepción de 10_25FP35CF002_FitxaEconom_signed y 10_25FP35CF004_FitxaEconom_signed que se encuentran firmadas por el director. Algunas fichas económicas se encuentran repetidas bajo el sufijo (1).
 :::
 
 ## Designas 
 
-Una vez descomprimidos los archivos de pfirma, se han encontrado archivos de designas, se han organizado según el código de la formación a la que corresponden. La estructura de los archivos organizados por formación es la siguiente:
+Una vez descomprimidos los archivos de pfirma se han encontrado archivos 34 designas correpondientes a 8 cursos del presente curso y 2 del pasado. Se han organizado según el código de la formación a la que corresponden. La estructura de los archivos organizados por formación es la siguiente:
 
 | Código          | Documento                                              |
 |-------------------|---------------------------------------------------------|
@@ -157,7 +157,7 @@ Una vez descomprimidos los archivos de pfirma, se han encontrado archivos de des
 
 Estos son los designas de los que se dispone en la actualidad que ya estén firmados. Detallamos a continuación tabla resumen de las formaciones, dada la información facilitada:
 
-| Título                                                        | Existe Carpeta CEF? | Están designas? | Obs. |
+| Título                                                        | Código | Están designas? | Obs. |
 |--------------------------------------------------------------|---------------------|----------------|----------------|
 | Aplicaciones teórico prácticas de los Técnicos medios de emergencias sanitarias | 25FP37CF012 | Sí | Incidencia. Falta CM. |
 | Marketing en el deporte: branding, fan engagement, patrocinio e innovaciones de futuro | 25FP20CF006 | Sí | Presupuesto OK |
@@ -165,16 +165,16 @@ Estos son los designas de los que se dispone en la actualidad que ya estén firm
 | Programando con la nueva Ley de FP | 25FP43CF023 | Sí | Presupuesto OK |
 | Digitalización aplicada al sistema productivo en la nueva Ley de FP | 25FP43CF215 | Sí | Presupuesto OK |
 | IPE I: Retos y desafíos derivados del cambio curricular en la especialidad de FOL | 25FP44CF002 | Sí | Presupuesto OK |
-| Formació inicial sobre la nova Llei de Formació Professional | 24FP43CF194 | Falten 2, Jorge Martinez, Jose Luis Cabello | Incidencia |
-| Sostenibilitat i digitalització en la nova Llei d'FP | 24FP43CF195 | Falten 2, Nuria Ferré i Victor Manuel Garcia | Incidencia |
+| Formació inicial sobre la nova Llei de Formació Professional | 24FP43CF194 | Faltan 2, Jorge Martinez, Jose Luis Cabello | Incidencia |
+| Sostenibilitat i digitalització en la nova Llei d'FP | 24FP43CF195 | Faltan 2, Nuria Ferré y Victor Manuel Garcia | Incidencia |
 
 :::info
-En la formación 25FP37CF012 No cuadra presupuesto de 1640 (1340). Ficha económica no coincide, material fungible 200 € y en Gesform 300 €. Falta CM. La asesora confirma que es correcto en Ficha económica. Hay que cambiar en Gesform.
+En la formación 25FP37CF012 no cuadra presupuesto de 1640 (1340). Ficha económica no coincide, material fungible 200 € y en Gesform 300 €. Falta CM. La asesora confirma que es correcto en ficha económica. Hay que cambiar en Gesform.
 :::
 
-Por tanto de las siguientes formaciones que ya están en estado de realización o certificadas no se dispone de ningún tipo de información, ni contratos menores, mi designas firmados:
+De las siguientes formaciones que ya están en estado de realización o certificadas no se dispone de ningún tipo de información, ni contratos menores, ni designas firmados:
 
-| Código        | Título                                                        | Press | Estado         |
+| Código        | Título                                                        | Presup. | Estado         |
 |--------------|----------------------------------------------------------------|------|---------------|
 | 24FP43CF192  | Formació inicial sobre la nova Llei de Formació Professional  | 536  | Cert. generado |
 | 25FP43CF021  | Expertos en programación por competencias                     | 2112 | Cert. generado |
@@ -196,7 +196,7 @@ Por tanto de las siguientes formaciones que ya están en estado de realización 
 | 25FP20CF008  | La orientación deportiva como educación activa al aire libre  | 2010 | Certificación  |
 
 :::warning
-Seria importante disponer de la información de la que se dispone por parte del equipo de Gestión económica para poder gestionar los CERTIFICA de estas formaciones.
+Seria importante disponer de la información de la que se dispone por parte del equipo de Gestión económica para poder gestionar los CERTIFICA de estas formaciones. Algunas de estas formaciones disponen de facturas, por lo que previsiblementes existen los contratos menores de algunas de ellas, pero no nos es posible saber cuáles.
 :::
 
 ## Actuaciones realizadas
@@ -321,7 +321,7 @@ En este texto se conserva la imagen referenciada del Fondo Social Europea ya que
 ### DIRIGIDO A
 
 :::caution
-Hay que cambiar la famñilia correspondiente
+Hay que cambiar la familia correspondiente
 :::
 
 **Valencià**

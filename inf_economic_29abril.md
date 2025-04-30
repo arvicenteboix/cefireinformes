@@ -133,7 +133,7 @@ Los documentos recibidos son:
 - pfirma_1741347341907_JKTHW6Z4-WEQ2MJT8-T8QNO1GQ.zip
 - pfirma_1741347347442_JKTHW6Z4-WEGINRT8-T8PSLAFA.zip
 
-:::info
+:::note
 Las fichas económicas recibidas son aquellas de las que ya se disponían por parte de los asesores a excepción de 10_25FP35CF002_FitxaEconom_signed y 10_25FP35CF004_FitxaEconom_signed que se encuentran firmadas por el director. Algunas fichas económicas se encuentran repetidas bajo el sufijo (1).
 Se ha esperado que se facilitara los designas de aquellas formaciones empezadas en el mes de marzo y no se ha recibido ninguna más aparte de las ya dispuestas. Por lo tanto el presente informe actualiza todas las formaciones de las cuáles no se dispone de la documentación necesaria para su justificación.
 :::
@@ -165,19 +165,19 @@ Estos son los designas de los que se dispone en la actualidad que ya estén firm
 | Programando con la nueva Ley de FP | 25FP43CF023 | Sí | Presupuesto OK | 12360 |
 | Digitalización aplicada al sistema productivo en la nueva Ley de FP | 25FP43CF215 | Sí | Presupuesto OK | 3588 |
 | IPE I: Retos y desafíos derivados del cambio curricular en la especialidad de FOL | 25FP44CF002 | Sí | Presupuesto OK | 2604 |
-| Formació inicial sobre la nova Llei de Formació Professional | 24FP43CF194 | Faltan 2, Jorge Martinez, Jose Luis Cabello | Incidencia | 536* |
-| Sostenibilitat i digitalització en la nova Llei d'FP | 24FP43CF195 | Faltan 2, Nuria Ferré y Victor Manuel Garcia | Incidencia | 4020* |
+| Formació inicial sobre la nova Llei de Formació Professional | 24FP43CF194 | Faltan 2, Jorge Martinez, Jose Luis Cabello | Incidencia | 536[^1] |
+| Sostenibilitat i digitalització en la nova Llei d'FP | 24FP43CF195 | Faltan 2, Nuria Ferré y Victor Manuel Garcia | Incidencia | 4020[^1] |
 
-* FSE 2024 (PROF 2023)
+[^1]: FSE 2024 (PROF 2023)
 
 No se podrían justificar ya que no se dispone de toda la documentación y ya se encuentran fuera de plazo para justificarlo:
 
-**PROF 2023** -> 4556€
-**PROF 2024** -> 1640€
-**Justificados en el PROF 2025** -> 21152€
+**PROF 2023** -> 4.556€ \newline
+**PROF 2024** -> 1.640€ \newline
+**Justificados en el PROF 2025** -> 21.152€ \newline
 
-:::info
-En la formación 25FP37CF012 no cuadra presupuesto de 1640 (1340). Ficha económica no coincide, material fungible 200 € y en Gesform 300 €. Falta CM. La asesora confirma que es correcto en ficha económica. Hay que cambiar en Gesform.
+:::note
+En la formación 25FP37CF012 no cuadra presupuesto de 1.640 (1.340). Ficha económica no coincide, material fungible 200 € y en Gesform 300 €. Falta CM. La asesora confirma que es correcto en ficha económica. Hay que cambiar en Gesform.
 :::
 
 De las siguientes formaciones que ya están en estado de realización o certificadas no se dispone de ningún tipo de información, ni contratos menores, ni designas firmados. Todas estas formaciones empezarona antes del 1 de abril de 2025.
@@ -236,4 +236,4 @@ En esta lista se encuentran todos los cursos ya revisados que falta toda la docu
 
 ## Valoración
 
-Sumando todas las formaciones que no se pueden justificar, el total asciende a **70.579,70 €** (68939,7 € + 1,640 €) para el PROF 2024 y para el PROF 2023 **4,556 €**. En total **68,032.70 €** que no se podrían justificar solo del curso 2024-2025.
+Sumando todas las formaciones que no se pueden justificar, el total asciende a **70.579,70 €** (68939,7 € + 1,640 €) para el PROF 2024 y para el PROF 2023 **4.556 €**. En total **75.135,70 €** que no se podrían justificar solo del curso 2024-2025.

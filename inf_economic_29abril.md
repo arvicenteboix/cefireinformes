@@ -182,10 +182,8 @@ En la formación 25FP37CF012 no cuadra presupuesto de 1.640 (1.340). Ficha econ�
 
 De las siguientes formaciones que ya están en estado de realización o certificadas no se dispone de ningún tipo de información, ni contratos menores, ni designas firmados. Todas estas formaciones empezarona antes del 1 de abril de 2025.
 
-| Código        | Título                                                        | Presup.    | Estado         |
+| Código        | Título                                                        | Presup.    | Estado         | 
 |---------------|---------------------------------------------------------------|------------|----------------|
-| 24FP43CF192   | Formació inicial sobre la nova Llei de Formació Professional  | 536        | Cert. generado |
-| 25FP19CF006   | Técnicas de secado con flores y verdes para realizar tus propias composiciones florales | 2550 | Cert. generado |
 | 25FP20CF004   | Maniobras básicas en escalada: conocimientos básicos para la autonomía del docente | 1005 | Cert. generado     |
 | 25FP20CF007   | Diseño de entrenamientos funcionales basados en evidencias para el fitness grupal y personal | 1675 | Cert. generado |
 | 25FP20CF008   | La orientación deportiva como educación activa al aire libre  | 2010       | Cert. generado  |
@@ -219,7 +217,6 @@ De las siguientes formaciones que ya están en estado de realización o certific
 | 25FP38CF005   | Aulas como espacios de felicidad y amabilidad para la primera infancia | 1860 | Cert. generado  |
 | 25FP38CF006   | Habilidades de comunicación para una interacción saludable y empática | 670 | Realización    |
 | 25FP38CF011   | V Intercambio de experiencias docentes de la Familia Profesional de SSC | 2144 | Cert. generado  |
-| 25FP38CF012   | Gestión de equipos de profesionales de Servicios Socioculturales y a la Comunidad | 965 | Realización    |
 | 25FP43CF020   | La digitalización y la sostenibilidad en la empresa de hoy: casos de éxito | 1541 | Cert. generado    |
 | 25FP43CF021   | Expertos en programación por competencias                     | 2112       | Cert. generado |
 | 25FP43CF212   | Sostenibilidad: Calidad del aire                              | 2894,5     | Realización    |
@@ -228,7 +225,7 @@ De las siguientes formaciones que ya están en estado de realización o certific
 | 25FP43CF224   | Actualización INCOTERMS 2020                                  | 1680       | Realización    |
 | 25FP43CF242   | La investigación de mercado como clave de éxito empresarial: caso práctico de una casa rural | 1680 | Realización |
 
-La suma total es: 68.939,70 € que no se podrían justificar.
+La suma total es: 64.888,70 € que no se podrían justificar.
 
 :::warning
 En esta lista se encuentran todos los cursos ya revisados que falta toda la documentación depués de haber facilitado gestión económica la información disponible. Se ha facilitado solamente los contratos menores a falta de saber si tienen los designas.
@@ -236,4 +233,8 @@ En esta lista se encuentran todos los cursos ya revisados que falta toda la docu
 
 ## Valoración
 
-Sumando todas las formaciones que no se pueden justificar, el total asciende a **70.579,70 €** (68939,7 € + 1,640 €) para el PROF 2024 y para el PROF 2023 **4.556 €**. En total **75.135,70 €** que no se podrían justificar solo del curso 2024-2025.
+Sumando todas las formaciones que no se pueden justificar, el total asciende a **66.528,70 €** (64.888,7 € + 1.640 €) para el PROF 2024 y para el PROF 2023 **4.556 €**. En total **71.084,70 €** que no se podrían justificar solo del curso 2024-2025.
+
+La única formación realizada en 2024 que se encuentra al corriente de pago es 24FP43CF192, por un importe de **536 €**, el pago del resto de formaciones del 2024. 
+
+Por indicaciones de Alicia de Gestión económica se va a proceder a realizar un Informe aclaratorio para estas 43 formaciones de las que o bien no hay ningún tipo de documentación o faltan. Parece una situación bastante inverosímil que esto esté así, se le ha escrito un correo al antiguo director (30 de abril de 2025) donde se detallan todas las formaciones para que facilite la documentación (designas y contratos menores faltantes), a lo cual, todavía no hemos tenido respuesta.

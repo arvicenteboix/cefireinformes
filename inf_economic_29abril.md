@@ -98,6 +98,7 @@ La documentación de la que se dispone ha sido facilitada a través de dos corre
 
 * En la cuenta de ar.vicenteboix@edu.gva.es el lunes 14 de de abril a las 9:55h según metadatos de Outlook.
 * En la cuenta de vicente_alf@gva.es el mismo lunes a las 10:20h según metadatos de Outlook.
+* Aclaración el 30 de abril en el que se expone que la documentación la tiene la administrativa del Cefire de FP o está en Gestión enconómica. Ambos han negado disponer de la documentación.
 
 Los documentos recibidos son:
 
@@ -148,7 +149,7 @@ Actualizados a fecha del presente informe se dispone de 34 designas correpondien
 | 24FP43CF194    | DESIGNA_24FP43CF194_JoseRaulSolbesMonzo_firmado.pdf     |
 | 24FP43CF195    | 24FP43CF195_CONTRATO MENOR_JULIO BLAS BLAS_firmado.pdf \newline DESIGNA MULTIPLE_24FP43CF195_firmado.pdf  |
 | 25FP20CF006    | DESIGNA_25FP20CF006_MARCILLA ESTEVE IGNACIO_firmado.pdf |
-| 25FP25CF005_Curs_passat | DESIGNA_25FP25CF005_INFANTE RUIZ OAU_firmado.pdf |
+| 25FP25CF005 | DESIGNA_25FP25CF005_INFANTE RUIZ OAU_firmado.pdf |
 | 25FP37CF012    | DESIGNA_25FP37CF012_MIRA SERRANO MONICA_firmado.pdf \newline DESIGNA_25FP37CF012_SANCHEZ JUAN JORGE_firmado.pdf |
 | 25FP38CF003    | DESIGNA_25FP38CF003_GIMENEZ PASTOR ROSA_firmado.pdf     |
 | 25FP43CF023   | DESIGNA_25FP43CF023_AHUIR CARDELLS MARIA DOLORES_firmado.pdf \newline DESIGNA_25FP43CF023_ALONSO SAIZ JOAQUIN VICENTE_firmado.pdf \newline DESIGNA_25FP43CF023_CABELLO FRIAS JOSE LUÍS_firmado.pdf \newline DESIGNA_25FP43CF023_CALVO ROSELLO ESPERANÇA_firmado.pdf \newline DESIGNA_25FP43CF023_CASABAN GARCIA AINA_firmado.pdf \newline DESIGNA_25FP43CF023_CATALAN LAURA_firmado.pdf \newline DESIGNA_25FP43CF023_CODERT GARCIA ESTER_firmado.pdf \newline DESIGNA_25FP43CF023_FAJARDO ASENSI JOSE MIGUEL_firmado.pdf \newline DESIGNA_25FP43CF023_FRANCES BORRELL RAFAEL_firmado.pdf \newline DESIGNA_25FP43CF023_GONZALEZ CABRERA MONICA_firmado.pdf \newline DESIGNA_25FP43CF023_GONZALEZ CARDONA PEDRO_firmado.pdf \newline DESIGNA_25FP43CF023_GRAU PLANELLS ANNA_firmado.pdf \newline DESIGNA_25FP43CF023_LARA FORT INMACULADA_firmado.pdf \newline DESIGNA_25FP43CF023_PASCUAL BLANCO OSCAR_firmado.pdf \newline DESIGNA_25FP43CF023_SALVADOR MONTOLIU NATALIA_firmado.pdf \newline DESIGNA_25FP43CF023_SELLES ESQUERDO SILVIA_firmado.pdf \newline DESIGNA_25FP43CF023_UGARTE MERINO NESTOR_firmado.pdf  |
@@ -159,12 +160,13 @@ Estos son los designas de los que se dispone en la actualidad que ya estén firm
 
 | Título                                                        | Código | ¿Están designas? | Obs. | Presupuesto |
 |--------------------------------------------------------------|---------------------|----------------|----------------|-------------|
-| Aplicaciones teórico prácticas de los Técnicos medios de emergencias sanitarias | 25FP37CF012 | Sí | Incidencia. Falta CM. | 1640 |
+| Aplicaciones teórico prácticas de los Técnicos medios de emergencias sanitarias | 25FP37CF012 | Sí | Presupuesto OK | 1640 |
 | Marketing en el deporte: branding, fan engagement, patrocinio e innovaciones de futuro | 25FP20CF006 | Sí | Presupuesto OK | 1260 |
 | Comunicación en Lengua de Signos | 25FP38CF003 | Sí | Presupuesto OK | 1340 |
 | Programando con la nueva Ley de FP | 25FP43CF023 | Sí | Presupuesto OK | 12360 |
 | Digitalización aplicada al sistema productivo en la nueva Ley de FP | 25FP43CF215 | Sí | Presupuesto OK | 3588 |
 | IPE I: Retos y desafíos derivados del cambio curricular en la especialidad de FOL | 25FP44CF002 | Sí | Presupuesto OK | 2604 |
+| Introducción al modelado con Blender                          | 25FP25CF005   | Sí | Presupuesto OK | 1090 |
 | Formació inicial sobre la nova Llei de Formació Professional | 24FP43CF194 | Faltan 2, Jorge Martinez, Jose Luis Cabello | Incidencia | 536[^1] |
 | Sostenibilitat i digitalització en la nova Llei d'FP | 24FP43CF195 | Faltan 2, Nuria Ferré y Victor Manuel Garcia | Incidencia | 4020[^1] |
 
@@ -172,9 +174,11 @@ Estos son los designas de los que se dispone en la actualidad que ya estén firm
 
 No se podrían justificar ya que no se dispone de toda la documentación y ya se encuentran fuera de plazo para justificarlo:
 
-**PROF 2023** -> 4.556€ \newline
-**PROF 2024** -> 1.640€ \newline
-**Justificados en el PROF 2025** -> 21.152€ \newline
+**PROF 2023 (FSE 2024)** -> 4.556€ \newline
+
+Y justificados estaría:
+
+**Justificados en el PROF 2024 (FSE 2025)** -> 22.792€ \newline (-300 € por error en presupuesto)
 
 :::note
 En la formación 25FP37CF012 no cuadra presupuesto de 1.640 (1.340). Ficha económica no coincide, material fungible 200 € y en Gesform 300 €. Falta CM. La asesora confirma que es correcto en ficha económica. Hay que cambiar en Gesform.
@@ -188,7 +192,6 @@ De las siguientes formaciones que ya están en estado de realización o certific
 | 25FP20CF007   | Diseño de entrenamientos funcionales basados en evidencias para el fitness grupal y personal | 1675 | Cert. generado |
 | 25FP20CF008   | La orientación deportiva como educación activa al aire libre  | 2010       | Cert. generado  |
 | 25FP20CF009   | Fitness en Sala de Entrenamiento Polivalente                  | 1935       | Cert. generado     |
-| 25FP25CF005   | Introducción al modelado con Blender                          | 1090       | Cert. generado |
 | 25FP25CF006   | Manejo básico de MQ50 y MagicQ de Chamsys                     | 1340       | Evaluación     |
 | 25FP27CF001   | Comunicaciones industriales con PLC e introducción al IoT industrial | 1920 | Cert. generado |
 | 25FP27CF002   | EPLAN Electric P8: Software de diseño eléctrico               | 1260       | Cert. generado |
@@ -225,16 +228,63 @@ De las siguientes formaciones que ya están en estado de realización o certific
 | 25FP43CF224   | Actualización INCOTERMS 2020                                  | 1680       | Realización    |
 | 25FP43CF242   | La investigación de mercado como clave de éxito empresarial: caso práctico de una casa rural | 1680 | Realización |
 
-La suma total es: 64.888,70 € que no se podrían justificar.
+La suma total es: **63.798,7 €** que no se podrían justificar.
 
 :::warning
 En esta lista se encuentran todos los cursos ya revisados que falta toda la documentación depués de haber facilitado gestión económica la información disponible. Se ha facilitado solamente los contratos menores a falta de saber si tienen los designas.
 :::
 
+:::warning
+Según información recibida por correo electrónico, se dispone de los siguientes designas gestionados, pero existe una incidencia en la que no se puede recuperar los designas firmados del portafirmas. Cabría saber si se tiene que hacer el ERESAR de todas estas formaciones o es posible recuperar esa información. Las formaciones serian las siguientes:
+25FP25CF006
+25FP20CF009
+25FP27CF007
+25FP27CF008
+25FP27CF009
+25FP27CF010
+25FP28CF003
+25FP30CF003
+25FP30CF018
+25FP30CF022
+25FP32CF005
+25FP32CF006
+25FP35CF008
+25FP37CF013
+25FP37CF015
+25FP37CF016
+25FP38CF006
+25FP38CF011
+25FP43CF213
+25FP43CF214
+25FP43CF224
+25FP43CF242
+25FP43CF212
+25FP20CF007
+25FP37CF007
+:::
+
+:::warning
+Por tanto, de las siguientes formaciones, según la información facilitada no se ha gestionado nada:
+25FP20CF004
+25FP20CF008
+25FP27CF001
+25FP27CF002
+25FP32CF002
+25FP32CF003
+25FP32CF004
+25FP33CF002
+25FP35CF002
+25FP35CF004
+25FP38CF004
+25FP38CF005
+25FP43CF020
+25FP43CF021
+:::
+
 ## Valoración
 
-Sumando todas las formaciones que no se pueden justificar, el total asciende a **66.528,70 €** (64.888,7 € + 1.640 €) para el PROF 2024 y para el PROF 2023 **4.556 €**. En total **71.084,70 €** que no se podrían justificar solo del curso 2024-2025.
+Sumando todas las formaciones que no se pueden justificar, el total asciende a **63.798,7 €** para el PROF 2024 y para el PROF 2023 **4.556 €**. En total **68.354,7 €** que no se podrían justificar solo del curso 2024-2025.
 
-La única formación realizada en 2024 que se encuentra al corriente de pago es 24FP43CF192, por un importe de **536 €**, el pago del resto de formaciones del 2024. 
+La única formación realizada en 2024 que se encuentra al corriente de pago es 24FP43CF192, por un importe de **536 €**, el pago del resto de formaciones del 2024 no se puede realizar ya que no se dispone de todos los designas. 
 
-Por indicaciones de Alicia de Gestión económica se va a proceder a realizar un Informe aclaratorio para estas 43 formaciones de las que o bien no hay ningún tipo de documentación o faltan. Parece una situación bastante inverosímil que esto esté así, se le ha escrito un correo al antiguo director (30 de abril de 2025) donde se detallan todas las formaciones para que facilite la documentación (designas y contratos menores faltantes), a lo cual, todavía no hemos tenido respuesta.
+Por indicaciones de Alicia de Gestión económica se va a proceder a realizar un Informe aclaratorio para todas las formaciones de las que o bien no hay ningún tipo de documentación o faltan. Parece una situación bastante inverosímil que esto esté así.

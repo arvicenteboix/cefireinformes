@@ -235,7 +235,7 @@ En esta lista se encuentran todos los cursos ya revisados que falta toda la docu
 :::
 
 :::warning
-Según información recibida por correo electrónico, se dispone de los siguientes designas gestionados, pero existe una incidencia en la que no se puede recuperar los designas firmados del portafirmas. Cabría saber si se tiene que hacer el ERESAR de todas estas formaciones o es posible recuperar esa información. Las formaciones serian las siguientes:
+Según información recibida por correo electrónico, los siguientes designas han sido gestionados, pero existe una incidencia en la que no se pueden recuperar los designas firmados del portafirmas. Cabría saber si se tiene que hacer el ERESAR de todas estas formaciones o es posible recuperar esa información en la mayor brevedad posible. Las formaciones serian las siguientes:
 25FP25CF006
 25FP20CF009
 25FP27CF007

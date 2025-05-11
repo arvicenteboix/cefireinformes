@@ -167,12 +167,12 @@ Estos son los designas de los que se dispone en la actualidad que ya estén firm
 | Digitalización aplicada al sistema productivo en la nueva Ley de FP | 25FP43CF215 | Sí | Presupuesto OK | 3588 |
 | IPE I: Retos y desafíos derivados del cambio curricular en la especialidad de FOL | 25FP44CF002 | Sí | Presupuesto OK | 2604 |
 | Introducción al modelado con Blender                          | 25FP25CF005   | Sí | Presupuesto OK | 1090 |
-| Formació inicial sobre la nova Llei de Formació Professional | 24FP43CF194 | Faltan 2, Jorge Martinez, Jose Luis Cabello | Incidencia | 536[^1] |
+| Formació inicial sobre la nova Llei de Formació Professional | 24FP43CF194 | Sí | Minutas No tramitadas. | 536[^1] |
 | Sostenibilitat i digitalització en la nova Llei d'FP | 24FP43CF195 | Faltan 2, Nuria Ferré y Victor Manuel Garcia | Incidencia | 4020[^1] |
 
 [^1]: FSE 2024 (PROF 2023)
 
-No se podrían justificar ya que no se dispone de toda la documentación y ya se encuentran fuera de plazo para justificarlo:
+No se podrían justificar ya que no se dispone de toda la documentación y ya se encuentran fuera de plazo para justificarlo o para hacer el pago que terminaba el 31 de marzo:
 
 **PROF 2023 (FSE 2024)** -> 4.556€ \newline
 
@@ -285,6 +285,6 @@ Por tanto, de las siguientes formaciones, según la información facilitada no s
 
 Sumando todas las formaciones que no se pueden justificar, el total asciende a **63.798,7 €** para el PROF 2024 y para el PROF 2023 **4.556 €**. En total **68.354,7 €** que no se podrían justificar solo del curso 2024-2025.
 
-La única formación realizada en 2024 que se encuentra al corriente de pago es 24FP43CF192, por un importe de **536 €**, el pago del resto de formaciones del 2024 no se puede realizar ya que no se dispone de todos los designas. 
+La única formación realizada en 2024 que se encuentra al corriente de pago es 24FP43CF192, por un importe de **536 €**, el pago del resto de formaciones del 2024 se está gestionando de que se dispone de toods los designas a cargo de FSE 2025, hay una que no se puede realizar ya que no se dispone de todos los designas. 
 
-Por indicaciones de Alicia de Gestión económica se va a proceder a realizar un Informe aclaratorio para todas las formaciones de las que o bien no hay ningún tipo de documentación o faltan. Parece una situación bastante inverosímil que esto esté así.
+Por indicaciones de Alicia de Gestión económica se procederá, si así es estima, a realizar un Informe aclaratorio para todas las formaciones de las que o bien no hay ningún tipo de documentación o falta.

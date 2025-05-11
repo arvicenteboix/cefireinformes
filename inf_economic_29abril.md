@@ -1,7 +1,7 @@
 ---
 # Front matter
 # Metainformació del document
-title: Informe económico mayo 2025 (actualizado 29 abril 2025)
+title: Informe económico mayo 2025 (actualizado 5 de mayo 2025)
 titlepage: true
 # author: 
 lang: es

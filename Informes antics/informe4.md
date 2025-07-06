@@ -260,7 +260,7 @@ A continuación se detallan las formaciones que se encuentran en periodo de insc
 
 # Consideraciones finales
 
-Se espera alrededor de 15000 certificaciones para finales de curso sin contar el componente 19 donde se esña formando a un total de 7000 participantes en Competencias Digitales de los cuales aproximadamente 5000 son docentes de la Comunidad Valenciana. En este contexto debesmos tener en cuenta que sin olvidar aquellas formaciones de acutalización y especialización técnica específica de cada familia, se ha tenido en cuenta la necesidad de una formación transversal para la FP para la actualización de formación en sostenibilidad, digitalización y la nueva Ley de Formación Profesional.
+Se espera alrededor de 15000 certificaciones para finales de curso sin contar el componente 19 donde se está formando a un total de 7000 participantes en Competencias Digitales de los cuales aproximadamente 5000 son docentes de la Comunidad Valenciana. En este contexto debemos tener en cuenta que sin olvidar aquellas formaciones de actualización y especialización técnica específica de cada familia, se ha tenido en cuenta la necesidad de una formación transversal para la FP para la actualización de formación en sostenibilidad, digitalización y la nueva Ley de Formación Profesional.
 
 Asimismo, se ha tenido en cuenta la formación en metodologías activas y el uso de la Inteligencia Artificial en el aula, así como la formación en competencias digitales para el profesorado.
 

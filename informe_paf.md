@@ -22,7 +22,7 @@ toc-depth: 2
 # capçalera i peu
 header-left: \thetitle
 header-right: 
-footer-left: CEFIRE FP
+footer-left: DGFP
 footer-right: \thepage/\pageref{LastPage}
 
 # Les figures que apareguen on les definim i centrades

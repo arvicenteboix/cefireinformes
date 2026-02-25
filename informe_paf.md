@@ -100,8 +100,7 @@ En este informe se detallan todas las formaciones y un pequeño resumen de su re
 
 A continuación se presenta una tabla de formaciones realizadas por familia profesional:
 
-| Familia | Número |
-| --------------------- | - |
+
 | Fam. Actividades físicas y deportivas | 8 |
 | Fam. Agraria | 9 |
 | Fam. Artes gráficas | 2 |
@@ -136,24 +135,25 @@ A continuación se presenta una tabla de formaciones realizadas por familia prof
 
 ## Formaciones totales realizadas
 
-A continuación se presenta una tabla con todas las formaciones realizadas con solicitudes, participantes totales y certificaciones del año 2025:
+A continuación se presenta una tabla con todas las formaciones realizadas con solicitudes, participantes totales y certificaciones del **año 2025**:
 
 | Formaciones | solicitudes | participantes | certificado | horas | plazas |
 | --- | --- | --- | --- | --- | --- |
 | 275 | 39925 | 25488 | 20574 | 6414 | 36889 |
 
-Con 11 asesores. Durante el 2º y 3r trimestre del curso 2024-2025. Sólo se dedicaban a hacer formación 11 asesores, los otros 5 se dedicaban solo a PAF, tarea igualmente asumida en el curso 25-26. 
+Con 11 asesores. Durante el **2º y 3r trimestre del curso 2024-2025**. Sólo se dedicaban a hacer formación 11 asesores, los otros 5 se dedicaban solo a PAF, tarea igualmente asumida en el curso 25-26. 
 
-Durante el 1r trimestre de 2025 se realizaron se realizaron als siguientes formaciones:
+Durante el **1r trimestre de 2025** se realizaron se realizaron als siguientes formaciones:
 
 | Formaciones | solicitudes | participantes | certificado | horas | plazas |
 | --- | --- | --- | --- | --- | --- |
 | 132 | 9488 | 5394 | 3794 | 3138 | 5212 |
 
+## Años anteriores
 
 En comparativa con los mismos perioddos de cursos anteriores:
 
-En 2024:
+**En 2024**:
 
 | Formaciones | solicitudes | participantes | certificado | horas | plazas |
 | --- | --- | --- | --- | --- | --- |
@@ -161,7 +161,7 @@ En 2024:
 
 Con 16 asesores
 
-En 2023:
+**En 2023**:
 
 | Formaciones | solicitudes | participantes | certificado | horas | plazas |
 | --- | --- | --- | --- | --- | --- |
@@ -173,9 +173,11 @@ En el siguiente gráfico podemos obsevar la evolución de las formaciones realiz
 
 ![Evolución gráfica](./img_inf_ar/evolucion.png)
 
+En el año 2025 es cuando la gestión de la formación pasa a la Dirección General de Formación Profesional.
+
 # Financiación de las formaciones
 
-Las formaciones de Fp se financian a través del fondo de FSE, en esta tabla podemos ver los
+Las formaciones del CEFIRE FP que se financian a través del fondo de FSE se han financiado de la siguiente manera, en esta tabla podemos ver la evolución del presupuesto ejecutado:
 
 | Año | Presupuesto | A descontar | Ingresado | Pagos | No ejecutado |
 | - | -- | -- | -- | -- | -- |
@@ -185,7 +187,7 @@ Las formaciones de Fp se financian a través del fondo de FSE, en esta tabla pod
 | FSE 2025 | 597.954,37 € | 266.454,67 €   | 331.499,70 € | 428.000 €*  | ​ -100.000 €* |
 | FSE 2026 | 597.954,37 € | 437.738,25 €   | 160.216,12 €* | —        | — |
 
-En la tabla podemos ver cómo existe un GAP de 437.738,25 € que debe ser resuelto por la Subdirección General de Formación del profesorado. Ya que se trata de dinero ingresado no ejecutado. En el cursos 2025-2026 se usaron fondos propios de la DGFP para reducir ese GAP para el próximo ejercicio. Los valores son estimativos ya que estamos en proceso de justificación(*).
+En la tabla podemos ver cómo existe un GAP de 437.738,25 € que debe ser resuelto por la Subdirección General de Formación del profesorado. Ya que se trata de dinero ingresado no ejecutado. En el cursos 2025-2026 se usaron fondos propios de la DGFP para reducir ese GAP para el próximo ejercicio. Los valores son estimativos ya que estamos en proceso de justificación(*). El ingreso estimado pra 2026 no se ha efectuado ya que se ha hecho el ingreso a la DGFP, se trata de una estimación.
 
 \newpage
 

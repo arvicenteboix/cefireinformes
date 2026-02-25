@@ -98,9 +98,10 @@ En este informe se detallan todas las formaciones y un pequeño resumen de su re
 
 ## Formaciones por familias
 
-A continuación se presenta una tabla de formaciones realizadas por familia profesional:
+A continuación se presenta una tabla de formaciones realizadas por familia profesional:|
 
-
+| | |
+| - | - |
 | Fam. Actividades físicas y deportivas | 8 |
 | Fam. Agraria | 9 |
 | Fam. Artes gráficas | 2 |
@@ -183,11 +184,15 @@ Las formaciones del CEFIRE FP que se financian a través del fondo de FSE se han
 | - | -- | -- | -- | -- | -- |
 | FSE 2022 | 762.899,71 € | 0,00 €         | 762.899,71 € | 495.271,14 €     | 267.628,57 €  |
 | FSE 2023 | 553.199,18 € | 124.325,10 €   | 428.874,08 € | 286.744,51 €     | 266.454,67 €  |
-| FSE 2024 | 589.435,25 € | 267.628,57 €   | 321.806,68 € | 253.527 €     | 437.738,25 €  |
+| FSE 2024 | 589.435,25 € | 267.628,57 €   | 321.806,68 € | 151.697 €     | 437.738,25 €  |
 | FSE 2025 | 597.954,37 € | 266.454,67 €   | 331.499,70 € | 428.000 €*  | ​ -100.000 €* |
-| FSE 2026 | 597.954,37 € | 437.738,25 €   | 160.216,12 €* | —        | — |
+| FSE 2026 | 597.954,37 €* | 437.738,25 €   | 160.216,12 €* | —        | — |
 
 En la tabla podemos ver cómo existe un GAP de 437.738,25 € que debe ser resuelto por la Subdirección General de Formación del profesorado. Ya que se trata de dinero ingresado no ejecutado. En el cursos 2025-2026 se usaron fondos propios de la DGFP para reducir ese GAP para el próximo ejercicio. Los valores son estimativos ya que estamos en proceso de justificación(*). El ingreso estimado pra 2026 no se ha efectuado ya que se ha hecho el ingreso a la DGFP, se trata de una estimación.
+
+:::info
+124.325,10 € -> Remanente de 2019/2020
+:::
 
 \newpage
 
